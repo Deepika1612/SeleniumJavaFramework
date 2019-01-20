@@ -12,6 +12,7 @@ public class TestNGAnnotationsDemo {
 	public void a() {
 
 		System.out.println("This is test 1");
+		System.out.println( "this is for test");
 	}
 
 	@Test(groups = { "regression" })
